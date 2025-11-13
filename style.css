@@ -430,6 +430,7 @@ footer a { color: inherit; }
 }
 .job-title { font-weight: 600; color: #f4f4f4; }
 .job-meta { color: #c5a100; margin-bottom: .5rem; }
+
 /* Fix unreadable header text for resume page */
 .tech-header {
   background: rgba(20, 25, 20, 0.82) !important;
