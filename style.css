@@ -430,4 +430,25 @@ footer a { color: inherit; }
 }
 .job-title { font-weight: 600; color: #f4f4f4; }
 .job-meta { color: #c5a100; margin-bottom: .5rem; }
+/* Fix unreadable header text for resume page */
+.tech-header {
+  background: rgba(20, 25, 20, 0.82) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 12px;
+}
+
+/* Make subtitle + contact info readable */
+.tech-header p,
+.tech-header a {
+  color: #f2f2f2 !important;
+  font-weight: 500;
+  text-shadow: 0 0 6px rgba(0,0,0,0.85);
+}
+
+/* Brighten the gold title */
+.tech-name {
+  color: #FFD447 !important;
+}
+
 
