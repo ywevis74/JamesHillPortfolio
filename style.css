@@ -392,3 +392,42 @@ footer {
 }
 
 footer a { color: inherit; }
+
+
+/* Military Tech Resume Theme */
+.military-tech {
+  background: #1b1f1a url("assets/header_camo.jpg") top/cover no-repeat;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+.tech-header {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(90deg, #2d3b2a, #3f4a3b);
+  border-radius: 10px;
+  color: #f4f4f4;
+  border: 2px solid #c5a100;
+}
+.tech-name { font-size: 2.2rem; font-weight: 700; color: #c5a100; }
+.tech-subtitle { font-size: 1.1rem; }
+.mission-card {
+  background: rgba(35, 40, 32, 0.95);
+  border-left: 5px solid #c5a100;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1.8rem 0;
+  color: #e6e6e6;
+}
+.mission-title { font-size: 1.3rem; color: #c5a100; }
+.rank-divider {
+  width: 100%;
+  height: 12px;
+  background: repeating-linear-gradient(
+    45deg, #c5a100, #c5a100 10px, #2d3b2a 10px, #2d3b2a 20px );
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+.job-title { font-weight: 600; color: #f4f4f4; }
+.job-meta { color: #c5a100; margin-bottom: .5rem; }
+
